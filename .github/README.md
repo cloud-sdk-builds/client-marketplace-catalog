@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-catalog`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-catalog/v/3.864.0).
+[`@aws-sdk/client-marketplace-catalog`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-catalog/v/3.872.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.864.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.872.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1pRwGjkfWLvT3vu4jLPlv7msTGtYphMu51RoUqxTL2sfMqQr+CD0/0DDi5wuKhfi
+sha384-gT7s9APU9N/1O6hPUT30AI6UibOALcxEmrL0/SE/wcvryoLV2W56bxwHJccpZpqi
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.864.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.872.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.864.0/index.min.mjs": "sha384-1pRwGjkfWLvT3vu4jLPlv7msTGtYphMu51RoUqxTL2sfMqQr+CD0/0DDi5wuKhfi"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.872.0/index.min.mjs": "sha384-gT7s9APU9N/1O6hPUT30AI6UibOALcxEmrL0/SE/wcvryoLV2W56bxwHJccpZpqi"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.864.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.872.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.864.0/index.min.mjs": "sha384-1pRwGjkfWLvT3vu4jLPlv7msTGtYphMu51RoUqxTL2sfMqQr+CD0/0DDi5wuKhfi"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.872.0/index.min.mjs": "sha384-gT7s9APU9N/1O6hPUT30AI6UibOALcxEmrL0/SE/wcvryoLV2W56bxwHJccpZpqi"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.864.0`)
+* Always pin to a specific version (`@3.872.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-catalog/blob/refs/tags/3.864.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-catalog/blob/refs/tags/3.872.0/LICENSE
 ```
 
 ---
