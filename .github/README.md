@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-catalog`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-catalog/v/3.1059.0).
+[`@aws-sdk/client-marketplace-catalog`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-catalog/v/3.1060.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-marketplace-catalog - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-catalog](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-catalog)
-- @aws-sdk/client-marketplace-catalog v3.1059.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-catalog&version=3.1059.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-catalog&version=3.1059.0)
+- @aws-sdk/client-marketplace-catalog v3.1060.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-catalog&version=3.1060.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-catalog&version=3.1060.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1059.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1060.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-OJhl/ycfRYHSPD91f1udvS2H5oISW7Ku7M1G83QMsUV568eaTIDx9FruGAmdHiBk
+sha384-9R56Ycl1ie/lJhYZtbAQByfcUL1q+fcW/mRBEc0oN3HHHmx0uE9cFR7tFmIxg0N+
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1059.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1060.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1059.0/index.min.mjs": "sha384-OJhl/ycfRYHSPD91f1udvS2H5oISW7Ku7M1G83QMsUV568eaTIDx9FruGAmdHiBk"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1060.0/index.min.mjs": "sha384-9R56Ycl1ie/lJhYZtbAQByfcUL1q+fcW/mRBEc0oN3HHHmx0uE9cFR7tFmIxg0N+"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1059.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-catalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1060.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1059.0/index.min.mjs": "sha384-OJhl/ycfRYHSPD91f1udvS2H5oISW7Ku7M1G83QMsUV568eaTIDx9FruGAmdHiBk"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-catalog@3.1060.0/index.min.mjs": "sha384-9R56Ycl1ie/lJhYZtbAQByfcUL1q+fcW/mRBEc0oN3HHHmx0uE9cFR7tFmIxg0N+"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1059.0`)
+* Always pin to a specific version (`@3.1060.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-catalog/blob/refs/tags/3.1059.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-catalog/blob/refs/tags/3.1060.0/LICENSE
 ```
 
 ---
